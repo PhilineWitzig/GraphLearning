@@ -1,0 +1,49 @@
+#### Results for Graph Classifier on NCI1 with shuffling in cross validation#####
+Learning Rate = 0,001
+Batch Size = 16
+Number of Epochs = 200
+Dropout layers: after each layer, 20% drop out rate
+Random state for shuffeling = 345369
+
+Training on data set  Nci1  in Fold number  1
+Train accuracy for graph classifier: 0.8045417666435242
+Validation accuracy for graph classifier: 0.7858880758285522
+
+Training on data set  Nci1  in Fold number  2
+Train accuracy for graph classifier: 0.8113003373146057
+Validation accuracy for graph classifier: 0.8077858686447144
+
+Training on data set  Nci1  in Fold number  3
+Train accuracy for graph classifier: 0.8088672757148743
+Validation accuracy for graph classifier: 0.7931873202323914
+
+Training on data set  Nci1  in Fold number  4
+Train accuracy for graph classifier: 0.8037307262420654
+Validation accuracy for graph classifier: 0.7956204414367676
+
+Training on data set  Nci1  in Fold number  5
+Train accuracy for graph classifier: 0.8040010929107666
+Validation accuracy for graph classifier: 0.7956204414367676
+
+Training on data set  Nci1  in Fold number  6
+Train accuracy for graph classifier: 0.8077858686447144
+Validation accuracy for graph classifier: 0.8004866242408752
+
+Training on data set  Nci1  in Fold number  7
+Train accuracy for graph classifier: 0.8077858686447144
+Validation accuracy for graph classifier: 0.8223844170570374
+
+Training on data set  Nci1  in Fold number  8
+Train accuracy for graph classifier: 0.8140037655830383
+Validation accuracy for graph classifier: 0.7615571618080139
+
+Training on data set  Nci1  in Fold number  9
+Train accuracy for graph classifier: 0.806434154510498
+Validation accuracy for graph classifier: 0.8053528070449829
+
+Training on data set  Nci1  in Fold number  10
+Train accuracy for graph classifier: 0.8061638474464417
+Validation accuracy for graph classifier: 0.7883211970329285
+
+Average max train acc: 0.8074615597724915
+Average max validation acc: 0.7956203818321228

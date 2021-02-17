@@ -1,0 +1,49 @@
+#### Results for Graph Classifier on Enzymes with shuffling in cross validation#####
+Learning Rate = 0,001
+Batch Size = 16
+Number of Epochs = 750
+Dropout layers: after each layer, 20% drop out rate
+Random state for shuffeling = 345369
+
+Training on data set  Enzymes  in Fold number  1
+WARNING:tensorflow:Model failed to serialize as JSON. Ignoring... Layers with arguments in `__init__` must override `get_config`.
+Train accuracy for graph classifier: 0.7555555701255798
+Validation accuracy for graph classifier: 0.6333333253860474
+Training on data set  Enzymes  in Fold number  2
+WARNING:tensorflow:Model failed to serialize as JSON. Ignoring... Layers with arguments in `__init__` must override `get_config`.
+Train accuracy for graph classifier: 0.7481481432914734
+Validation accuracy for graph classifier: 0.6000000238418579
+Training on data set  Enzymes  in Fold number  3
+WARNING:tensorflow:Model failed to serialize as JSON. Ignoring... Layers with arguments in `__init__` must override `get_config`.
+Train accuracy for graph classifier: 0.8018518686294556
+Validation accuracy for graph classifier: 0.5833333134651184
+Training on data set  Enzymes  in Fold number  4
+WARNING:tensorflow:Model failed to serialize as JSON. Ignoring... Layers with arguments in `__init__` must override `get_config`.
+Train accuracy for graph classifier: 0.7981481552124023
+Validation accuracy for graph classifier: 0.7166666388511658
+Training on data set  Enzymes  in Fold number  5
+WARNING:tensorflow:Model failed to serialize as JSON. Ignoring... Layers with arguments in `__init__` must override `get_config`.
+Train accuracy for graph classifier: 0.7777777910232544
+Validation accuracy for graph classifier: 0.6166666746139526
+Training on data set  Enzymes  in Fold number  6
+WARNING:tensorflow:Model failed to serialize as JSON. Ignoring... Layers with arguments in `__init__` must override `get_config`.
+Train accuracy for graph classifier: 0.7870370149612427
+Validation accuracy for graph classifier: 0.699999988079071
+Training on data set  Enzymes  in Fold number  7
+WARNING:tensorflow:Model failed to serialize as JSON. Ignoring... Layers with arguments in `__init__` must override `get_config`.
+Train accuracy for graph classifier: 0.7537037134170532
+Validation accuracy for graph classifier: 0.6666666865348816
+Training on data set  Enzymes  in Fold number  8
+WARNING:tensorflow:Model failed to serialize as JSON. Ignoring... Layers with arguments in `__init__` must override `get_config`.
+Train accuracy for graph classifier: 0.7777777910232544
+Validation accuracy for graph classifier: 0.6000000238418579
+Training on data set  Enzymes  in Fold number  9
+WARNING:tensorflow:Model failed to serialize as JSON. Ignoring... Layers with arguments in `__init__` must override `get_config`.
+Train accuracy for graph classifier: 0.7851851582527161
+Validation accuracy for graph classifier: 0.6499999761581421
+Training on data set  Enzymes  in Fold number  10
+WARNING:tensorflow:Model failed to serialize as JSON. Ignoring... Layers with arguments in `__init__` must override `get_config`.
+Train accuracy for graph classifier: 0.729629635810852
+Validation accuracy for graph classifier: 0.5833333134651184
+Average max train acc: 0.771481454372406
+Average max validation acc: 0.6350000500679016

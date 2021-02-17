@@ -1,0 +1,4 @@
+numpy
+networkX
+tqdm
+scikit-learn

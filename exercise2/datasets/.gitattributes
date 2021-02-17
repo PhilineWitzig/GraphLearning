@@ -1,0 +1,8 @@
+CiteSeer_Eval filter=lfs diff=lfs merge=lfs -text
+CiteSeer_Train filter=lfs diff=lfs merge=lfs -text
+Cora_Train filter=lfs diff=lfs merge=lfs -text
+Cora_Eval filter=lfs diff=lfs merge=lfs -text
+Cora_Eval/** filter=lfs diff=lfs merge=lfs -text
+Cora_Train/** filter=lfs diff=lfs merge=lfs -text
+CiteSeer_Eval/** filter=lfs diff=lfs merge=lfs -text
+CiteSeer_Train/** filter=lfs diff=lfs merge=lfs -text

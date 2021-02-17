@@ -1,0 +1,136 @@
+\documentclass[12pt,a4paper,leqno]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{dsfont}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{ amssymb }
+
+\usepackage{geometry}
+\geometry{a4paper, top=20mm, left=15mm, right=15mm, bottom=30mm}
+
+\usepackage{longtable}
+\usepackage{caption} 
+\captionsetup[table]{skip=15pt}
+
+%Kopfzeile
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\setlength{\headheight}{42pt}
+\pagestyle{fancy}
+\lhead{Practical Course on Graph Learning \\ Assignment 1 \\ Group 1}
+\rhead{Athena Riazsadri 345369 \\ Marlon Schröter 371576\\ Philine Witzig 357423}
+
+
+\begin{document}
+The tables below indicate the average accuracy, the highest accuracy achieved and the standard deviation in the accuracy for, both, training and testing the SVM using different kernels. For the reason of performance, we set a max. number of iterations to 200k. All accuracy results for the 10-fold cross validation using 10 epochs can be found in the results folder in the respective results\_200k.txt file.
+	
+	% ---------
+	% Training results
+	% ---------
+	\begin{table}[h]
+		\caption{Average training accuracy of SVM during 10-fold cross validation.}
+		\centering
+		\begin{tabular}{|l|l|l|l|}
+			\hline
+			Kernel & DD & ENZYMES  & NCI1  \\
+			\hline
+			\hline
+			Graphlet & 0.6471 &   0.3703&   0.5036\\
+			\hline
+			Weisfeiler Lehman&  0.6087&  0.3623&  0.4947\\
+			\hline
+			Closed Walk & 0.5234 & 0.2253&  0.5646 \\
+			\hline
+		\end{tabular}
+	\end{table}
+
+	\begin{table}[h]
+		\caption{Highest training accuracy of SVM achieved during 10-fold cross validation.}
+		\centering
+		\begin{tabular}{|l|l|l|l|}
+			\hline
+			Kernel & DD & ENZYMES  & NCI1  \\
+			\hline
+			\hline
+			Graphlet &  0.8205&   0.4201&  0.6287 \\
+			\hline
+			Weisfeiler Lehman&  0.7085&  0.3985& 0.6155 \\
+			\hline
+			Closed Walk &  0.7113&  0.2626 &   0.6347 \\
+			\hline
+		\end{tabular}
+	\end{table}
+
+		\begin{table}[h]
+		\caption{Standard deviation in training accuracy of SVM achieved during 10-fold cross validation.}
+		\centering
+		\begin{tabular}{|l|l|l|l|}
+			\hline
+			Kernel & DD & ENZYMES  & NCI1  \\
+			\hline
+			\hline
+			Graphlet &  0.1776&   0.0206&  0.1024 \\
+			\hline
+			Weisfeiler Lehman&  0.1078 &  0.0161& 0.0716 \\
+			\hline
+			Closed Walk &  0.1506&  0.0207&   0.0592 \\
+			\hline
+		\end{tabular}
+		\end{table}
+	
+		% -----------------
+		% Test results 
+		% -----------------
+			\begin{table}[h]
+			\caption{Average test accuracy of SVM during 10-fold cross validation.}
+			\centering
+			\begin{tabular}{|l|l|l|l|}
+				\hline
+				Kernel & DD & ENZYMES  & NCI1  \\
+				\hline
+				\hline
+				Graphlet & 0.6472 &   0.2371&  0.5037\\
+				\hline
+				Weisfeiler Lehman&  0.5892&  0.1924&  0.4909\\
+				\hline
+				Closed Walk &  0.5238&  0.2&   0.5622 \\
+				\hline
+			\end{tabular}
+		\end{table}
+		
+		\begin{table}[h]
+			\caption{Highest test accuracy of SVM achieved during 10-fold cross validation.}
+			\centering
+			\begin{tabular}{|l|l|l|l|}
+				\hline
+				Kernel & DD & ENZYMES  & NCI1  \\
+				\hline
+				\hline
+				Graphlet &  0.7613&   0.3898&   0.6521\\
+				\hline
+				Weisfeiler Lehman&  0.7797&  0.3&  0.6375\\
+				\hline
+				Closed Walk &  0.7458&  0.3167&  0.6837 \\
+				\hline
+			\end{tabular}
+		\end{table}
+		
+		\begin{table}[h]
+			\caption{Standard deviation in test accuracy of SVM achieved during 10-fold cross validation.}
+			\centering
+			\begin{tabular}{|l|l|l|l|}
+				\hline
+				Kernel & DD & ENZYMES  & NCI1  \\
+				\hline
+				\hline
+				Graphlet &  0.1680&   0.0534&  0.1051 \\
+				\hline
+				Weisfeiler Lehman&  0.1177&  0.0522& 0.0770 \\
+				\hline
+				Closed Walk &  0.1533&  0.0519 &   0.0631 \\
+				\hline
+			\end{tabular}
+		\end{table}
+\end{document}

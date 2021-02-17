@@ -1,0 +1,4 @@
+numpy
+networkX
+scikit-learn
+tensorflow

@@ -1,0 +1,38 @@
+#### Results for Graph Classifier on Enzymes without shuffeling in cross validation and without one-hot encoding#####
+Learning Rate = 0,0001
+Batch Size = 16
+Number of Epochs = 1000
+Dropout layers: after sum pool layer, drop out rate of 20%
+ 
+Train accuracy for graph classifier: 0.6555555462837219
+Validation accuracy for graph classifier: 0.28333333134651184
+
+Train accuracy for graph classifier: 0.6296296119689941
+Validation accuracy for graph classifier: 0.28333333134651184
+
+Train accuracy for graph classifier: 0.6481481194496155
+Validation accuracy for graph classifier: 0.46666666865348816
+
+Train accuracy for graph classifier: 0.6666666865348816
+Validation accuracy for graph classifier: 0.44999998807907104
+
+Train accuracy for graph classifier: 0.6037036776542664
+Validation accuracy for graph classifier: 0.28333333134651184
+
+Train accuracy for graph classifier: 0.6203703880310059
+Validation accuracy for graph classifier: 0.4166666567325592
+
+Train accuracy for graph classifier: 0.6037036776542664
+Validation accuracy for graph classifier: 0.4833333194255829
+
+Train accuracy for graph classifier: 0.6740740537643433
+Validation accuracy for graph classifier: 0.44999998807907104
+
+Train accuracy for graph classifier: 0.6018518805503845
+Validation accuracy for graph classifier: 0.4833333194255829
+
+Train accuracy for graph classifier: 0.5759259462356567
+Validation accuracy for graph classifier: 0.4000000059604645
+
+Average max train acc: 0.5759259462356567
+Average max validation acc: 0.4000000059604645
